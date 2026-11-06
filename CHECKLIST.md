@@ -32,10 +32,11 @@ Date: 5 November 2026
 
 ## 4. SonarQube for IDE warnings I saw in app.js
 
-- It discovered that my credentials are exposed since it was in my source code without encrypted. this is because i pushed it to git and public. Therefore i had to remove the credentials and encrypt before pushing to git
+- It discovered that my credentials are exposed since it was in my source code without encrypted. this is because i pushed it to git and public. Therefore i had to remove the credentials and encrypt before pushing to git.
 
-## 5. Database probs and solutions
-Improper input validation exposed sensitive data/information from te database to an sunauthorized user/client/agent
+
+## 5. Database probs and solutions(snyk code test)
+Improper input validation exposed sensitive data/information from the database to an sunauthorized user/client/agent
 
 ## Solution
 Proper input validation (by design) to prevent unauthorized data exposure.
